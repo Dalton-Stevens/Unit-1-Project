@@ -19,7 +19,7 @@ const Square = (props) => {
 
   return (
     <div className="square" onClick={handleClick}>
-      {props.squareValue === 0 ? "O" : props.squareValue}
+      {props.squareValue === "O" ? "O" : props.squareValue}
     </div>
   );
 };
